@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AboutScreen</string>
+
+    <string name="btn_follow_facebook">Follow us on Facebook</string>
+    <string name="btn_follow_twitter">Follow us on Twitter</string>
+    <string name="btn_follow_googlePlus">Follow us on Google Plus</string>
+    <string name="btn_terms_conditions"><![CDATA[Terms & Conditions]]></string>
+
+    <string name="dummy_about_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer diam, gravida at fermentum sed, tempus sit amet justo. Sed placerat, lectus vel eleifend ornare, turpis dui commodo nunc, in vehicula nisl leo non erat. Sed convallis ante eget mauris condimentum, ac accumsan eros scelerisque. Nullam blandit faucibus tellus id dictum. Aenean venenatis velit id nunc vestibulum condimentum. Donec pellentesque eros convallis molestie mollis. Pellentesque pellentesque placerat erat, at bibendum urna sodales sit amet. Sed eu tristique augue, non laoreet magna. Fusce facilisis auctor est, at convallis ligula. Etiam vel eros eget leo bibendum bibendum vitae at tellus. Fusce sed tellus risus.</string>
+</resources>
