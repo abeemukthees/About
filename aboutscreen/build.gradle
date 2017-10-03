@@ -17,8 +17,6 @@ android {
 
         vectorDrawables.useSupportLibrary = true
 
-        buildConfigField("String", "DEV_URL", devUrl)
-
     }
     buildTypes {
         release {
