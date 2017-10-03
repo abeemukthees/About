@@ -254,7 +254,7 @@ public class AboutActivity extends AppCompatActivity implements View.OnClickList
             if (url != null) {
                 if (URLUtil.isValidUrl(url)) customTabsIntent.launchUrl(this, Uri.parse(url));
             } else {
-                customTabsIntent.launchUrl(this, Uri.parse(BuildConfig.DEV_URL));
+                customTabsIntent.launchUrl(this, Uri.parse("https://about.me/abhimuktheeswarar"));
             }
         }
         count++;
