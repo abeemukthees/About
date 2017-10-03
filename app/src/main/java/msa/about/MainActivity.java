@@ -30,10 +30,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -47,10 +47,10 @@ public class MainActivity extends AppCompatActivity {
                 .context(this)
                 .aboutText(getString(R.string.dummy_about_text))
                 .companyLogo(R.drawable.logo_about)
-                .facebookId(BuildConfig.FACEBOOK_ID)
-                .facebookUserName(BuildConfig.FACEBOOK_USERNAME)
-                .twitterId(BuildConfig.TWITTER_ID)
-                .googlePlusId(BuildConfig.GOOGLE_PLUS_ID)
+                .facebookId("Your Facebook Id")
+                .facebookUserName("Your Facebook userName")
+                .twitterId("Your Twitter Id")
+                .googlePlusId("Your Google Plus Id")
                 .termsAndConditionsUrl("https://github.com/abeemukthees")
                 .appVersion("1.0.0")
                 .footerText("Made with love in Bengaluru")));
